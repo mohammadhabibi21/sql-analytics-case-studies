@@ -65,9 +65,27 @@ Products with current inventory but no recorded sales history are retained in th
 - T-SQL
 - SQL Server Management Studio (SSMS)
 
-## Note
+## Data Source
 
-The BikeSale database setup was provided as part of the course assignment. The analytical SQL queries in this folder represent the inventory analysis performed for the project.
+The database used in this project is based on the **BikeStores Sample Database** from **SQLServerTutorial.net**.
+
+The dataset contains two main schemas, `sales` and `production`. This analysis primarily uses:
+
+- `sales.orders`
+- `sales.order_items`
+- `production.stocks`
+
+The original BikeStores sample database and setup instructions are available from SQLServerTutorial.net.
+
+Original dataset:
+https://www.sqlservertutorial.net/getting-started/sql-server-sample-database/
+
+Database setup guide:
+https://www.sqlservertutorial.net/getting-started/load-sample-database/
+
+A `BikeSale.sql` setup script was provided as part of the course assignment to create and populate the database in Microsoft SQL Server. The setup script itself is not redistributed in this repository.
+
+The analytical queries in this project were written separately for the inventory analysis.
 
 ## Author
 
